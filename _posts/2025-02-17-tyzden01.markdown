@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "1. Týždeň"
+date:   2025-02-17 08:00:00 +0100
+categories: dennik
+---
+
+- Vytvorenie tejto webstránky
+- Dokumentovať funkcionalít systému L.I.S.T.
