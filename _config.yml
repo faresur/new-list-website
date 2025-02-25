@@ -1,10 +1,11 @@
 title: Nový L.I.S.T.
 email: aboelsaad1@uniba.sk
-description: Bakalarska praca
+description: Bakalárska práca 2024/25
 baseurl: "/~aboelsaad1"
 url: "https://davinci.fmph.uniba.sk"
-twitter_username: 
 github_username:  faresur
+linkedin_username: fares-marwan
+show_excerpts: true
 
 # Build settings
 theme: 
