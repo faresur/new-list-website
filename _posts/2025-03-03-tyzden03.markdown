@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "3. Týždeň"
+date:   2025-02-24 08:00:00 +0100
+categories: dennik
+---
+
+- Druhé stretnutie so školiteľom

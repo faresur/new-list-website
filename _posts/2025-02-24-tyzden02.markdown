@@ -5,4 +5,9 @@ date:   2025-02-24 08:00:00 +0100
 categories: dennik
 ---
 
-- Stretnutie so školiteľom
+- Prvé stretnutie so školiteľom
+- Zvolené technológie:
+    - Frontend: React
+    - Backend: C#/.Net
+    - DB: PostgreSQL
+- Rozdelenie do modulov

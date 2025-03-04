@@ -3,11 +3,4 @@
 ---
 
 @import "minima";
-
-a {
-  color: green;
-
-  &:hover {
-    color: green;
-  }
-}
+@import "site";
