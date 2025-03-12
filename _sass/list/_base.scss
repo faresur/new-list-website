@@ -1,0 +1,18 @@
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: $list-green;
+}
+
+a {
+  color: $list-blue;
+
+  &:hover {
+    color: lighten($list-blue, 20);
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: $list-purple;
+  }
+}

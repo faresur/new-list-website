@@ -5,9 +5,9 @@ permalink: /dennik/
 ---
 
 {%- if site.posts.size > 0 -%}
-    <ul class="post-list">
+    <div class="row">
       {%- for post in site.posts -%}
-      <li>
+      <div class="col-4">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
@@ -18,9 +18,9 @@ permalink: /dennik/
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
-      </li>
+      </div>
       {%- endfor -%}
-    </ul>
+    </div>
 
     <p class="rss-subscribe">Sledovať <a href="{{ "/feed.xml" | relative_url }}">cez RSS</a></p>
 {%- endif -%}

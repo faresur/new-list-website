@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "4. Týždeň"
+date:   2025-03-10 08:00:00 +0100
+categories: dennik
+---
+
+- Tretie stretnutie so školiteľom
