@@ -7,17 +7,18 @@ permalink: /dennik/
 {%- if site.posts.size > 0 -%}
     <div class="row">
       {%- for post in site.posts -%}
-      <div class="col-4">
+      <div class="col-3 post-box">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
-          </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        <div class="post-excerpt">
+          {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+          {%- endif -%}
+        </div>
+        <a class="post-link" href="{{ post.url | relative_url }}">viac</a>
       </div>
       {%- endfor -%}
     </div>

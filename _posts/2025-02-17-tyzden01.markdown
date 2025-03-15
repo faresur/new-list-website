@@ -6,4 +6,4 @@ categories: dennik
 ---
 
 - Vytvorenie tejto webstránky
-- Dokumentovať funkcionalít systému L.I.S.T.
+- Dokumentovať funkcionalít systému L.I.S.T
