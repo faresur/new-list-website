@@ -95,7 +95,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  color: $list-darkgreen;
+  color: $list-brown;
 }
 
 
@@ -108,11 +108,11 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: $list-darkgreen;
+    color: $link-color-highlight;
   }
 
   &:hover {
-    color: lighten($link-color, 20);
+    color: $link-color-highlight;
   }
 
   .social-media-list &:hover {
@@ -250,4 +250,10 @@ table {
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+
+::selection {
+  background: $highlight-color;
+  color: white;
 }

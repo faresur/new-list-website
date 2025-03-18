@@ -25,8 +25,8 @@
   }
 
   a:hover {
-    color: lighten($list-green, 20);
-    text-transform: none;
+    color: $list-brown;
+    text-transform: none !important;
   }
 
 }
@@ -51,7 +51,8 @@
     line-height: $base-line-height;
 
     &:hover {
-      color: lighten($list-green, 20);
+      color: $list-lightgreen;
+      text-transform: none !important;
     }
 
     // Gaps between nav items, but not on the last one

@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "5. Týždeň"
+date:   2025-03-17 08:00:00 +0100
+categories: dennik
+---
+
+[Prezentacia](/~aboelsaad1/assets/presentation.pdf)

@@ -2,11 +2,18 @@
 
 $list-white: #e7f0ef !default;
 $list-black: #352c24 !default;
-$list-darkgreen: #3c6838 !default;
-$list-green: #7d9a57 !default;
-$list-brown: #b4653f !default;
+$list-darkgreen: #283E00 !default;
+$list-green: #344200 !default;
+$list-lightgreen: #434C00 !default;
+$list-brown: #633700 !default;
+$list-blue: #1D2855 !default;
+$list-purple: #3B004C !default;
 
-$link-color: $list-green !default;
+$link-color: $list-blue !default;
+$link-color-highlight: lighten($list-blue, 20) !default;
+$link-color-visited: $list-purple !default;
+$highlight-color: $list-brown !default;
+$background-color: $list-white !default;
 
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   16px !default;
@@ -17,7 +24,6 @@ $base-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
-$background-color: $list-white !default;
 $brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
