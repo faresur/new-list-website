@@ -25,7 +25,7 @@
   }
 
   a:hover {
-    color: $list-brown;
+    color: lighten($list-brown, 50);
     text-transform: none !important;
   }
 
@@ -51,7 +51,7 @@
     line-height: $base-line-height;
 
     &:hover {
-      color: $list-lightgreen;
+      color: lighten($list-brown, 50);
       text-transform: none !important;
     }
 

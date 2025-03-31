@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "6. Týždeň"
+date:   2025-03-24 08:00:00 +0100
+categories: dennik
+---
+
+- štvrté stretnutie so školiteľom
+- Vytvorenie Users modul

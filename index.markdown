@@ -7,3 +7,8 @@ layout: home
 **Školiteľ:** Mgr. Pavel Petrovič, PhD.  
 **Stredisko:** Katedra aplikovanej informatiky  
 [Viac o práce](about)
+
+
+## Prezentácie
+
+- [Plán práce](/~aboelsaad1/assets/presentation.pdf)
